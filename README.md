@@ -12,7 +12,7 @@
 4. What did you learn from it?
     I learned lots of things. To be more specific, I learned:
     - Why using prefabs is important
-    - Instead of using Rigidbody, Sphere Collider must be used for realistic sphere movement
+    - Sphere Collider must be used and Box Collider must be removed in order to create a realistic sphere movement
     - How to create a stabilized third-person camera
     - What is Time.deltaTime and why it is used (It is the amount of seconds it took for the engine to process the previous frame and it         is used to make objects move equal distances regardless of computer process speed.)
     - How tags can be used and why it is convenient to use them
