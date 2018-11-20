@@ -75,7 +75,6 @@ GameObject:
   - component: {fileID: 224202308283870544}
   - component: {fileID: 222547673249083766}
   - component: {fileID: 114645123686623504}
-  - component: {fileID: 114287628461274374}
   m_Layer: 5
   m_Name: Coin Score
   m_TagString: Untagged
@@ -201,19 +200,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 100
---- !u!114 &114287628461274374
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1749447701523120}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 681aa4cb741111b46bcad1143483863d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  coinScore: 0
-  coinScoreText: {fileID: 114645123686623504}
 --- !u!114 &114421463535052014
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -303,7 +289,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96

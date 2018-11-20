@@ -126,6 +126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movement: {fileID: 114843388518517250}
+  countText: {fileID: 0}
 --- !u!114 &114843388518517250
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -138,5 +139,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 54005317087019166}
-  forwardForce: 8000
+  forwardForce: 6000
   sidewaysForce: 120
